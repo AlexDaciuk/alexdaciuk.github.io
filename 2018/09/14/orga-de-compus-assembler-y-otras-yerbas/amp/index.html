@@ -2,36 +2,31 @@
 <head>
     <meta charset="utf-8">
 
-    <title>Usando Ghost en Github Pages</title>
+    <title>Orga de Compus, Assembler y frustraciones varias ...</title>
 
     <meta name="HandheldFriendly" content="True">
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
 
     <link rel="shortcut icon" href="../../../../../favicon.ico">
 
-    <meta name="description" content="Entrada sobre como usar Ghost en Github Pages.">
     <link rel="shortcut icon" href="../../../../../favicon.ico" type="image/x-icon">
     <link rel="canonical" href="../index.html">
     <meta name="referrer" content="no-referrer-when-downgrade">
     
     <meta property="og:site_name" content="El Blog de Alex">
     <meta property="og:type" content="article">
-    <meta property="og:title" content="Usando Ghost en Github Pages">
-    <meta property="og:description" content="Entrada sobre como usar Ghost en Github Pages.">
-    <meta property="og:url" content="http://localhost:2373/2018/04/08/haciendo-pickles/">
-    <meta property="article:published_time" content="2018-04-08T21:51:29.000Z">
-    <meta property="article:modified_time" content="2018-08-22T03:18:46.000Z">
-    <meta property="article:tag" content="Open Source">
-    
+    <meta property="og:title" content="Orga de Compus, Assembler y frustraciones varias ...">
+    <meta property="og:description" content="Después de estar varios cuatris sin hacer materias que tengan que ver con computadoras, me decidí el cuatri pasado a hacer la simultaneidad con Licenciatura en Sistemas (pienso dejar olvidada a Ingeniería por un tiempo, al menos hasta el plan nuevo, teóricamente 2020).Como soy un boludo, colgué Álgebra y">
+    <meta property="og:url" content="http://localhost:2373/2018/09/14/orga-de-compus-assembler-y-otras-yerbas/">
+    <meta property="article:published_time" content="2018-09-14T07:41:47.000Z">
+    <meta property="article:modified_time" content="2018-09-14T07:41:47.000Z">
     <meta property="article:publisher" content="https://www.facebook.com/alexisdaciuk">
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="Usando Ghost en Github Pages">
-    <meta name="twitter:description" content="Entrada sobre como usar Ghost en Github Pages.">
-    <meta name="twitter:url" content="http://localhost:2373/2018/04/08/haciendo-pickles/">
+    <meta name="twitter:title" content="Orga de Compus, Assembler y frustraciones varias ...">
+    <meta name="twitter:description" content="Después de estar varios cuatris sin hacer materias que tengan que ver con computadoras, me decidí el cuatri pasado a hacer la simultaneidad con Licenciatura en Sistemas (pienso dejar olvidada a Ingeniería por un tiempo, al menos hasta el plan nuevo, teóricamente 2020).Como soy un boludo, colgué Álgebra y">
+    <meta name="twitter:url" content="http://localhost:2373/2018/09/14/orga-de-compus-assembler-y-otras-yerbas/">
     <meta name="twitter:label1" content="Written by">
     <meta name="twitter:data1" content="Alex Daciuk">
-    <meta name="twitter:label2" content="Filed under">
-    <meta name="twitter:data2" content="Open Source">
     <meta name="twitter:site" content="@alexdaciuk">
     
     <script type="application/ld+json">
@@ -60,12 +55,11 @@
         "url": "http://localhost:2373/author/alex/",
         "sameAs": []
     },
-    "headline": "Usando Ghost en Github Pages",
-    "url": "http://localhost:2373/2018/04/08/haciendo-pickles/",
-    "datePublished": "2018-04-08T21:51:29.000Z",
-    "dateModified": "2018-08-22T03:18:46.000Z",
-    "keywords": "Open Source",
-    "description": "Entrada sobre como usar Ghost en Github Pages.",
+    "headline": "Orga de Compus, Assembler y frustraciones varias ...",
+    "url": "http://localhost:2373/2018/09/14/orga-de-compus-assembler-y-otras-yerbas/",
+    "datePublished": "2018-09-14T07:41:47.000Z",
+    "dateModified": "2018-09-14T07:41:47.000Z",
+    "description": "Después de estar varios cuatris sin hacer materias que tengan que ver con computadoras, me decidí el cuatri pasado a hacer la simultaneidad con Licenciatura en Sistemas (pienso dejar olvidada a Ingeniería por un tiempo, al menos hasta el plan nuevo, teóricamente 2020).Como soy un boludo, colgué Álgebra y",
     "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "http://localhost:2373/"
@@ -97,37 +91,15 @@
         <article class="post">
 
             <header class="post-header">
-                <h1 class="post-title">Usando Ghost en Github Pages</h1>
+                <h1 class="post-title">Orga de Compus, Assembler y frustraciones varias ...</h1>
                 <section class="post-meta">
                     <p class="author">by <a href="../../../../../author/alex/">Alex Daciuk</a></p>
-                    <time class="post-date" datetime="2018-04-08">2018-04-08</time>
+                    <time class="post-date" datetime="2018-09-14">2018-09-14</time>
                 </section>
             </header>
             <section class="post-content">
 
-                <p>Como todos saben (?), siempre me gusta tener un blog para escribir boludeces, estuve saltando de blog en blog a lo largo de los años.</p>
-<h2 id="pordondeanduveantes">Por donde anduve antes</h2>
-<p>Pase por WordPress, pesado y con miles de cosas que nunca usaba, sin contar del pseudo HTML que usabas para editar las entradas.</p>
-<p>Drupal 6, 7 y 8, otro dinosaurio de los CMS, complicado y con features que tampoco nunca iba a usar (y en la version 8, una preocupante falta de plugins y themes, aunque capaz eso ya mejoro).</p>
-<h2 id="porqueghost">Porque Ghost?</h2>
-<p>Despues de estar rebuscando lugares donde hosteen gratis un Drupal y me den acceso SSH (cosa que en su momento no encontre), empece a buscar alternativas, un amigo me comento de un nuevo CMS, liviano, simple, sin cosas demas y Open Source (importante).</p>
-<p>Escrito en Javascript y corriendo sobre NodeJS, hace que deployar sea simple y rapido, al usar sqlite como base de datos (no veo porque un simple blog necesita MySQL o PostgreSQL), hace que lo unico que hace falta para usar Ghost, sea NodeJS (fuera del webserver a eleccion para hacer proxy reverso).</p>
-<h2 id="elproblemadelhosting">El problema del hosting</h2>
-<p>Como siempre fui Linuxero, siempre me gusto la idea de tener un servidor casero (lease, una PC vieja tirada en una esquina), pero desde que el precio de los servicios tuvieron ajustes por encima del 1000 % gracias a un gobierno de mierda, esto se empezo a volver prohibitivo.</p>
-<p>De ahi que empece a buscar alternativas para hostear mi blog, podia pagarme alguna VPS, pero un servidor dedicado solamente a un blog que va a entrar nadie, no se me justifica, un dropplet de Digital Ocean, tambien lo pense, pero ahora ya no me acuerdo porque no lo elegi.</p>
-<h2 id="porquegithubpages">Porque Github Pages?</h2>
-<p>Creo que las 2 razones principales son practicidad y precio.</p>
-<h3 id="practicidad">Practicidad</h3>
-<p>Como informatico que a veces programa, tengo una idea bastante buena de como manejarme con <strong>git</strong> y practicamente todo se hace mediante <strong>git</strong>, nada de paneles web inentendibles o usar FTP como en los 90s</p>
-<h3 id="precio">Precio</h3>
-<p>Es gratis, podes publicar una pagina web sin pagar un peso, ademas de que tenes HTTPS y un dominio bastante copado (fulano.github.io).</p>
-<h2 id="problemasdegithubpages">Problemas de Github Pages</h2>
-<p>Claramente, al ser un servicio gratuito, es bastante limitado en lo que podes hacer, nada de base de datos, etc.</p>
-<p>Entonces tenemos que hacer un par de pasos mas para poder correr Ghost en Github Pages</p>
-<h2 id="finallycorriendoghostengithubpages">Finally, corriendo Ghost en Github Pages</h2>
-<p>Como claramente esto no lo hice yo, le paso el tutorial original, ya que no pienso re-escribir algo que no es mio</p>
-<p>Tutorial : <a href="https://github.com/paladini/ghost-on-github-pages">https://github.com/paladini/ghost-on-github-pages</a></p>
-
+                <p>Después de estar varios cuatris sin hacer materias que tengan que ver con computadoras, me decidí el cuatri pasado a hacer la simultaneidad con Licenciatura en Sistemas (pienso dejar olvidada a Ingeniería por un tiempo, al menos hasta el plan nuevo, teóricamente 2020).</p><p>Como soy un boludo, colgué Álgebra y se me venció, así que estoy recursando Álgebra y haciendo una materia nueva, que nunca hice, Organización del Computador (me da la impresión que un español le dio nombre a la materia, COMPUTADOR, en fin).</p><h2 id="organizaci-n-del-computador">Organización del Computador</h2><p>El nombre no necesariamente te da una idea de que carajo trata la materia, resulta que, trata de cuestiones de bajo de nivel de un <strong>computador.</strong></p><p>Primer día de clase, cae el jefe de cátedra, nos da una introducción a la materia y ya a esta altura de la cursada sospechaba de algo ...</p><p><em>Que no iba a ser la materia mas entretenida de la facu</em></p><h2 id="cuando-la-rutina-cansa">Cuando la rutina cansa</h2><p>El ser humano es un animal dinámico por naturaleza, o eso nos gusta creer, siempre buscamos avanzar, experiencias nuevas, salir de la rutina, ese cáncer de la sociedad moderna, o no?</p><p>Uno mismo se permite ciertas libertades cuando algo se vuelve tedioso, la semana se pone pesada? uno sale a tomar una birra, no tenes ganas de cocinar los mismos fideos de siempre? se pide comida o se sale a comer, das la misma materia hace años y te aburriste? vas y das clases sin ganas.</p><p><strong>No todas las libertades son buenas.</strong></p><h2 id="caso-de-estudio-ibm-mainframe">Caso de estudio: IBM Mainframe</h2><p>Y la desactualizada concha de tu madre</p><p>Aparte de ser un producto ya poco usado, muy pocas cosas a estas alturas justifican el costo de compra de un mainframe y su falta de documentación, el mismo software necesario para emular S/390 es minimamente <strong>viejo</strong>.</p><p>Y para desarrollar? Tenes algo llamado Assembler Studio que lo codeo algún alma en pena para poder salir del purgatorio, pero deja de contar, Atom no tienen resaltado de sintaxis siquiera para esta versión de Assembler.</p><p>El emulador esta escrito en Java y necesitas una versión del año de la garompa para que corra bien, ah, Oracle te pide que te hagas una cuenta para descargar Java JRE 6.</p><p><strong>Cual es la necesidad?</strong></p><p>Acaso no tenes una arquitectura nueva, de uso amplio en dispositivos móviles llamada ARM? No seria mas interesante y hasta UTIL (en algún caso) saber y/o haber visto Assembler de ARM?<br><br>Ah, BTW, Assembler ha de ser el lenguaje menos intuitivo de aprender, lo mejor? por alguna razón están estirando la clase practica de Assembler y estamos viendo cosas teóricas.</p><p>También en algún momento vamos a ver Assembler de x86 (Oh, algo que se usa actualmente), pero no se porque sospecho que algo raro va a haber y no voy a poder usar las herramientas de mi Linux para armar los ejecutables y seguramente nos van a hacer correr las cosas en DOSBOX o algo falopa como eso.</p><p>Al final, termine instalando una virtual con Windows 7 para poder correr las cosas (que al final creo que es algo bueno, ya que voy a seguir estando en Linux mientras codeo para los TPs, <strong>No hay mal que por bien no venga</strong> no?)</p><p>Estuve mirando ciertas cosas que me pasaron en Assembler para ver si puedo arrancar algo, no entiendo una mierda, así que nada, cuando empiece a entender algo, tratare de hacer una entrada explicando cosas básicas y como arrancar.</p><p></p><p>Cambio y fuera.</p>
 
             </section>
 

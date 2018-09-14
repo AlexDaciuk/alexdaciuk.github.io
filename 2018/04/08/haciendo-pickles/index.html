@@ -8,7 +8,7 @@
     <meta name="HandheldFriendly" content="True">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" type="text/css" href="../../../../assets/built/screen.css?v=f24f56daf4">
+    <link rel="stylesheet" type="text/css" href="../../../../assets/built/screen.css?v=f16c06a61b">
 
     <meta name="description" content="Entrada sobre como usar Ghost en Github Pages.">
     <link rel="shortcut icon" href="../../../../favicon.ico" type="image/x-icon">
@@ -75,14 +75,14 @@
 }
     </script>
 
-    <script src="../../../../public/ghost-sdk.js?v=f24f56daf4"></script>
+    <script src="../../../../public/ghost-sdk.js?v=f16c06a61b"></script>
 <script>
 ghost.init({
 	clientId: "ghost-frontend",
 	clientSecret: "c7ad80524e40"
 });
 </script>
-    <meta name="generator" content="Ghost 2.0">
+    <meta name="generator" content="Ghost 2.1">
     <link rel="alternate" type="application/rss+xml" title="El Blog de Alex" href="../../../../rss/index.html">
 
 </head>
@@ -268,9 +268,21 @@ ghost.init({
     </div>
 
 
+    <script>
+        var images = document.querySelectorAll('.kg-gallery-image img');
+        images.forEach(function (image) {
+            var container = image.closest('.kg-gallery-image');
+            var width = image.attributes.width.value;
+            var height = image.attributes.height.value;
+            var ratio = width / height;
+            container.style.flex = ratio + ' 1 0%';
+        })
+    </script>
+
+
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous">
     </script>
-    <script type="text/javascript" src="../../../../assets/js/jquery.fitvids.js?v=f24f56daf4"></script>
+    <script type="text/javascript" src="../../../../assets/js/jquery.fitvids.js?v=f16c06a61b"></script>
 
 
     <script>
