@@ -39,17 +39,26 @@
     "publisher": {
         "@type": "Organization",
         "name": "El Blog de Alex",
+        "url": "http://localhost:2373/",
         "logo": {
             "@type": "ImageObject",
-            "url": "http://localhost:2373/favicon.ico",
-            "width": 48,
-            "height": 48
+            "url": {
+                "@type": "ImageObject",
+                "url": "http://localhost:2373/favicon.ico",
+                "width": 48,
+                "height": 48
+            }
         }
     },
     "author": {
         "@type": "Person",
         "name": "Alex Daciuk",
-        "image": "//www.gravatar.com/avatar/cd16270975ff2ecaec406b71dd169701?s=250&d=mm&r=x",
+        "image": {
+            "@type": "ImageObject",
+            "url": "//www.gravatar.com/avatar/cd16270975ff2ecaec406b71dd169701?s=250&d=mm&r=x",
+            "width": 250,
+            "height": 250
+        },
         "url": "http://localhost:2373/author/alex/",
         "sameAs": []
     },
@@ -66,7 +75,7 @@
 }
     </script>
 
-    <meta name="generator" content="Ghost 3.2">
+    <meta name="generator" content="Ghost 3.11">
     <link rel="alternate" type="application/rss+xml" title="El Blog de Alex" href="../../../../../rss/index.html">
 
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic%7COpen+Sans:700,600,400">
@@ -127,7 +136,7 @@
         </article>
     </main>
     <footer class="site-footer clearfix">
-        <section class="copyright"><a href="../../../../../">El Blog de Alex</a> © 2019</section>
+        <section class="copyright"><a href="../../../../../">El Blog de Alex</a> © 2020</section>
         <section class="poweredby">Proudly published with <a href="https://ghost.org">Ghost</a></section>
     </footer>
 </body>
